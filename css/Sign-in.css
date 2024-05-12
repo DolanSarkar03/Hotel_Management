@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+#page-1{
+  
+    position: relative;
+    align-items: center;
+    
+    
+ 
+}
+
+#page-1 img{
+
+  height: 100%;
+  width: 100%;
+  top:0%;
+  z-index: -1;
+  opacity: 0.6;
+  position: fixed;
+
+}
+
+#page-1 #container{
+   
+    position: absolute;
+    margin: 100px 4px;
+    padding: 20px 10px;
+    top:10%;
+    right: 34%;
+    height: 450px;
+    width: 30%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+
+#container h1{
+    position: absolute;
+    top: 5%;
+    color: rgb(45, 3, 85);
+    
+    
+}
+
+.form-box h2{
+
+  margin-top: 15px;
+   margin-bottom: 30px;
+  color: #feaf39;
+   padding: 4px 4px;
+
+}
+
+
+.form-box .input-field{
+    background: #eaeaea;
+    border-radius: 5px;
+    padding: 4px 5px;
+    margin: 15px 3px;
+    cursor: pointer;
+
+}
+
+input{
+   width: 80%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 50px;
+}
+
+
+
+.input-field i{
+    /* color: #999; */
+   
+}
+
+
+form p{
+    text-align: left;
+    font-size: 15px;
+}
+
+form p a{
+    text-decoration: none;
+    color: #3c00a0;
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+.btn-field button a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.btn-field{
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+   gap:30px;
+   margin-top: 15px;
+   text-decoration: none;
+}
+
+.btn-field button{
+    
+    margin-top: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    flex-basis: 100%;
+    padding: 3px 3px;
+    height: 40px;
+    background: #f8a11e;
+    color: whitesmoke;
+    border-radius: 30px;
+    transition: 0.3s all ease;
+   
+    
+   
+
+    
+}
+
+
+.btn-field button:hover{
+    background: rgb(3, 182, 3);
+    color: black;
+    transition: 0.3s all ease;
+}
+
+.btn-field button.disable{
+    text-decoration: none;
+    background:grey;
+    color: black;
+    
+}
+
+
+

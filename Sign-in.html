@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Caveat:wght@700&family=Dancing+Script:wght@700&family=Handjet&family=Kanit:wght@400;500;800&family=Lilita+One&family=Luxurious+Roman&family=Montserrat:wght@700&family=Mukta:wght@400;500&family=Pacifico&family=Poppins&family=Roboto+Slab:wght@400;500&family=Shadows+Into+Light&family=Signika:wght@600&display=swap" rel="stylesheet">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/Sign-in.css">
+</head>
+<body>
+<div id="page-1">
+ 
+ <div id="container">
+    <h1>
+    The Hotelier
+    </h1>
+   <div class="form-box">
+    <h2 id="title">Sign-in</h2>
+    <form action="">
+      <div class="input-group">
+        <div class="input-field" id="Email">
+            <i class="ri-user-fill"></i>
+            <input type="email" placeholder="Email ID" >
+        </div>
+
+        <div class="input-field" id="Password">
+          <i class="ri-lock-fill"></i>
+            <input type="password" placeholder="Password" >
+        </div>
+        <p>Lost Password <a href="#">Click Here</a></p>
+      </div>
+      <div class="btn-field">
+        <!-- <button type="button" class="disable" id="signupBtn"><a href="sign-up.html" target="_blank">Sign-up</a></button> -->
+        <button type="button" id="signupBtn" onclick="redirectTo('Home.html')">Sign-in</button>
+      </div>
+
+    </form>
+
+   </div>
+
+  
+ </div>
+
+</div>
+    <script>
+
+      function redirectTo(link) {
+        window.location.href='index.html';
+        
+      }
+
+    </script>
+</body>
+</html>
